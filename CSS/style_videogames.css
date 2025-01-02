@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(29, 28, 28);
+    color: orange;
+}
+.navbar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(23, 26, 26);
+    padding: 20px 20px;
+    gap: 20px;  /* Espacio entre logo y menú */
+}
+.navbar .menu{
+    display: flex;
+    gap: 30px;  /* Aumenta el espacio entre los elementos del menú */
+}
+a{
+    text-decoration: none;
+    color: orange;
+    box-sizing: border-box;  /* Incluye padding dentro del tamaño total del elemento */
+    transition: background-color 0.3s ease;  /* Suaviza el cambio de color */
+}
+.navbar a:hover{
+    background-color: rgb(22, 24, 24);
+    color: rgb(219, 190, 136);
+    cursor: pointer;
+    
+}
+.logo img{
+    height: 70px;
+
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.entradaVideojuegos{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+hr{
+    border: none;           /* Quita el estilo predeterminado */
+    border-top: 2px solid orange; /* Define un borde superior de color naranja */
+    margin: 20px 0;         /* Espacio alrededor del <hr> */
+}
+.imagenMario img{
+    width: 200px;
+    margin-left: 650px;
+}
+
+.box-container{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(27, 26, 26);
+    border-radius: 10px;
+}
+.videojuegos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.videojuego {
+    background-color: rgb(52, 51, 51); /* Fondo del contenedor */
+    padding: 20px;                    /* Espacio interno */
+    border: 1px solid gray;           /* Borde opcional */
+    border-radius: 10px;              /* Esquinas redondeadas opcionales */
+    text-align: center;               /* Centra el contenido horizontalmente */
+    width: 230px;                 /* Limita el ancho del contenedor */
+    margin: 20px auto;                /* Centra el contenedor en la página */
+}
+
+.videojuego img {
+    display: block;                   /* Asegura que la imagen sea un bloque */
+    margin: 0 auto;                   /* Centra la imagen horizontalmente */
+    width: 150px;                     /* Tamaño de la imagen */
+    border: 1px solid whitesmoke;     /* Borde de la imagen */
+    box-shadow: 0 4px 8px rgb(235, 230, 220); /* Sombra */
+}
+
+.informacionVideojuego {
+    margin-top: 10px;                 /* Espacio entre la imagen y la información */
+    color: whitesmoke;                /* Color de texto */
+    font-size: 14px;                  /* Tamaño de fuente */
+    text-align: left;
+}
+.informacionVideojuego h3{
+    text-align: center;
+    color: orange;
+}
+.informacionVideojuego h4{
+    text-align: center;
+    color: rgb(189, 164, 117);
+}
+
+.informacionVideojuego span{
+    color: beige;
+    font-weight: bolder;
+}
+.informacionVideojuego li{
+    list-style: none;
+    
+}

@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(29, 28, 28);
+    color: orange;
+}
+.navbar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(23, 26, 26);
+    padding: 20px 20px;
+    gap: 20px;  /* Espacio entre logo y menú */
+}
+.navbar .menu{
+    display: flex;
+    gap: 30px;  /* Aumenta el espacio entre los elementos del menú */
+}
+a{
+    text-decoration: none;
+    color: orange;
+    box-sizing: border-box;  /* Incluye padding dentro del tamaño total del elemento */
+    transition: background-color 0.3s ease;  /* Suaviza el cambio de color */
+}
+.navbar a:hover{
+    background-color: rgb(22, 24, 24);
+    color: rgb(219, 190, 136);
+    cursor: pointer;
+    
+}
+.logo img{
+    height: 70px;
+
+}
+    
+hr{
+    border: none;           /* Quita el estilo predeterminado */
+    border-top: 2px solid orange; /* Define un borde superior de color naranja */
+    margin: 20px 0;         /* Espacio alrededor del <hr> */
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    color: solid rgb(231, 175, 70);
+}
+
+p{
+    text-align:justify;
+    color: whitesmoke;
+}
+
+.intro_game {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    gap: 20px; /* Espacio entre texto e imagen */
+    padding: 20px;
+    
+}
+
+.intro_game .review {
+    flex: 2; /* Asigna más espacio al texto */
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+.intro_game .portada {
+    flex: 1; /* Asigna menos espacio a la imagen */
+    text-align: right; /* Centra la imagen en su contenedor */
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.intro_game .portada img {
+    max-width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Opcional: esquinas redondeadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Opcional: sombra */
+}
+
+.imagenes_personajes{
+    display: flex;
+}
+.personajes_info .joel img {
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente el contenido */
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8); /* Sombra blanca */
+    border: none; /* Elimina bordes del iframe */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+}
+
+.video-description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    text-align: center; /* Centra el texto */
+}
+

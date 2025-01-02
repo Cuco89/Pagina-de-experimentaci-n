@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(29, 28, 28);
+    color: orange;
+}
+.navbar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(23, 26, 26);
+    padding: 20px 20px;
+    gap: 20px;  /* Espacio entre logo y menú */
+}
+.navbar .menu{
+    display: flex;
+    gap: 30px;  /* Aumenta el espacio entre los elementos del menú */
+}
+a{
+    text-decoration: none;
+    color: orange;
+    box-sizing: border-box;  /* Incluye padding dentro del tamaño total del elemento */
+    transition: background-color 0.3s ease;  /* Suaviza el cambio de color */
+}
+.navbar a:hover{
+    background-color: rgb(22, 24, 24);
+    color: rgb(219, 190, 136);
+    cursor: pointer;
+    
+}
+.logo img{
+    height: 70px;
+
+}
+
+
+.presentacion{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-align: justify;
+    display: flex;
+    color: bisque;
+    
+}
+.presentacion h1{
+    text-align: center;
+    color: orange;
+}
+
+.presentacion h2{
+    text-align: center;
+}
+
+.presentacion img{
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.presentacion .redesSociales img:hover{
+    background-color: rgb(46, 43, 43);
+    padding: 20px;
+    border: 1px solid orange;
+    box-shadow: 0 4px 8px rgb(219, 194, 147);
+}
+
+.imagenResumen img{
+    border: 1px solid orange; /* Borde sólido naranja con grosor de 5px */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px orange;
+}
+
+
+hr {
+    border: none;           /* Quita el estilo predeterminado */
+    border-top: 2px solid orange; /* Define un borde superior de color naranja */
+    margin: 20px 0;         /* Espacio alrededor del <hr> */
+}
+.presentacion .redesSociales{
+    margin-top: 10px;
+}
+
+.presentacion .resumen .redesSociales img{
+    margin-left: 50px;
+    width: 60px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.borrar_carrito img{
+    height: 40px;
+}
+.borrar_carrito{
+    display: flex;
+    gap: 20px;
+}
+
+.borrar_individual {
+    display: flex; /* Para usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.borrar_individual img {
+    height: 15px; /* Ajusta el tamaño de la imagen */
+    display: block; /* Para evitar márgenes innecesarios */
+}

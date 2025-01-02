@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi música</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/style_menu_musica.css">
+</head>
+<body>
+<header class="navbar">
+        <div class="logo"><img src="/imagenes/logo.png" alt=""></div>
+        <nav class="menu">
+            <a href="principal.php">Inicio</a>
+            <a href="sobre_mi">Sobre mi</a>
+            <a href="videojuegos.php">Videojuegos</a>
+            <a href="menu_compra.php">Ir de compras</a>
+            <a href ="menu_musica.html"> Musica </a>
+            <a style="margin-left: 850px;" href="carrito.php">Carrito</a>
+        </nav>
+    </header>
+
+    <div class="intro_musica">
+        <h1>Mi musica favorita</h1>
+        <p>Aquí tienes una lista de mis grupos de música favoritos. Si te interesa, puedes hacer clic en el enlace para obtener más información sobre ellos.</p>
+        <p>Haz clic en <strong>"Información"</strong> para ver detalles esenciales de cada grupo.</p>
+        <p>Si haces clic en la <strong>imagen</strong>, serás redirigido a una lista de reproduccion de youtube donde podrás disfrutar de las canciones y sus videoclips.</p>
+    </div>
+
+<div class="container_music">
+    <!-- Grupo 1 -->
+    <div class="music_group">
+        <img src="/imagenes/imagenes_musica/21PILOTS.jpg" alt="Twenty one Pilots" title="Twenty one Pilots">
+        <div class="info_group">
+            <h3>Twenty One Pilots</h3>
+            <h4 class="informacion">Información</h4>
+            <div class="datos" style="display: none;">
+                <ul>
+                    <li><span>Grupo:</span> Twenty One Pilots</li>
+                    <li><span>Género:</span> Rock alternativo</li>
+                    <li><span>Año fundación:</span> 2009</li>
+                    <li><span>País:</span> Estados Unidos</li>
+                </ul>
+            </div>
+            <div class="add_biblioteca">
+                <form method="POST" action="#biblioteca.php">
+                    <input type="hidden" name="producto" value="Twenty One Pilots">
+                    <button type="submit">Añadir a la biblioteca</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grupo 2 -->
+    <div class="music_group">
+        <img src="/imagenes/imagenes_musica/ajr.jpg" alt="AJR" title="AJR">
+        <div class="info_group">
+            <h3>AJR</h3>
+            <h4 class="informacion">Información</h4>
+            <div class="datos" style="display: none;">
+                <ul>
+                    <li><span>Grupo:</span> AJR</li>
+                    <li><span>Género:</span> Alternativa / Indie</li>
+                    <li><span>Año fundación:</span> 2005</li>
+                    <li><span>País:</span> Estados Unidos</li>
+                </ul>
+            </div>
+            <div class="add_biblioteca">
+                <form method="POST" action="#biblioteca.php">
+                    <input type="hidden" name="producto" value="AJR">
+                    <button type="submit">Añadir a la biblioteca</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grupo 3 -->
+    <div class="music_group">
+        <img src="/imagenes/imagenes_musica/linkin_park.jpg" alt="Linkin Park" title="Linkin Park">
+        <div class="info_group">
+            <h3>Linkin Park</h3>
+            <h4 class="informacion">Información</h4>
+            <div class="datos" style="display: none;">
+                <ul>
+                    <li><span>Grupo:</span> Linkin Park</li>
+                    <li><span>Género:</span> Rock y nu metal</li>
+                    <li><span>Año fundación:</span> 1996</li>
+                    <li><span>País:</span> Estados Unidos</li>
+                </ul>
+            </div>
+            <div class="add_biblioteca">
+                <form method="POST" action="#biblioteca.php">
+                    <input type="hidden" name="producto" value="Linkin Park">
+                    <button type="submit">Añadir a la biblioteca</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grupo 4 -->
+    <div class="music_group">
+        <img src="/imagenes/imagenes_musica/alice_in_chains.jpg" alt="Alice in Chains" title="Alice in Chains">
+        <div class="info_group">
+            <h3>Alice in Chains</h3>
+            <h4 class="informacion">Información</h4>
+            <div class="datos" style="display: none;">
+                <ul>
+                    <li><span>Grupo:</span> Alice in Chains</li>
+                    <li><span>Género:</span> Grunge / Metal alternativo</li>
+                    <li><span>Año fundación:</span> 1987</li>
+                    <li><span>País:</span> Estados Unidos</li>
+                </ul>
+            </div>
+            <div class="add_biblioteca">
+                <form method="POST" action="#biblioteca.php">
+                    <input type="hidden" name="producto" value="Alice in Chains">
+                    <button type="submit">Añadir a la biblioteca</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grupo 5 -->
+    <div class="music_group">
+        <img src="/imagenes/imagenes_musica/arctic_monkeys.jpeg" alt="Arctic Monkeys" title="Arctic Monkeys">
+        <div class="info_group">
+            <h3>Arctic Monkeys</h3>
+            <h4 class="informacion">Información</h4>
+            <div class="datos" style="display: none;">
+                <ul>
+                    <li><span>Grupo:</span> Arctic Monkeys</li>
+                    <li><span>Género:</span> Indice / Rock alternativo</li>
+                    <li><span>Año fundación:</span> 2002</li>
+                    <li><span>País:</span> Reino Unido</li>
+                </ul>
+            </div>
+            <div class="add_biblioteca">
+                <form method="POST" action="#biblioteca.php">
+                    <input type="hidden" name="producto" value="Fall Out Boy">
+                    <button type="submit">Añadir a la biblioteca</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grupo 6 -->
+    <div class="music_group">
+        <img src="/imagenes/imagenes_musica/imagine_dragons.jpeg" alt="Imagine Dragons" title="Imagine Dragons">
+        <div class="info_group">
+            <h3>Imagine Dragons</h3>
+            <h4 class="informacion">Información</h4>
+            <div class="datos" style="display: none;">
+                <ul>
+                    <li><span>Grupo:</span> Imagine Dragons</li>
+                    <li><span>Género:</span> Rock alternativo / Pop rock</li>
+                    <li><span>Año fundación:</span> 2008</li>
+                    <li><span>País:</span> Estados Unidos</li>
+                </ul>
+            </div>
+            <div class="add_biblioteca">
+                <form method="POST" action="#biblioteca.php">
+                    <input type="hidden" name="producto" value="Imagine Dragons">
+                    <button type="submit">Añadir a la biblioteca</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grupo 7 -->
+    <div class="music_group">
+        <img src="/imagenes/imagenes_musica/paramore.jpeg" alt="Paramore" title="Paramore">
+        <div class="info_group">
+            <h3>Paramore</h3>
+            <h4 class="informacion">Información</h4>
+            <div class="datos" style="display: none;">
+                <ul>
+                    <li><span>Grupo:</span> Paramore</li>
+                    <li><span>Género:</span> Pop punk / Rock alternativo</li>
+                    <li><span>Año fundación:</span> 2004</li>
+                    <li><span>País:</span> Estados Unidos</li>
+                </ul>
+            </div>
+            <div class="add_biblioteca">
+                <form method="POST" action="#biblioteca.php">
+                    <input type="hidden" name="producto" value="Paramore">
+                    <button type="submit">Añadir a la biblioteca</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grupo 8 -->
+    <div class="music_group">
+        <img src="/imagenes/imagenes_musica/foofighters.jpeg" alt="Foo Fighters" title="Foo Fighters">
+        <div class="info_group">
+            <h3>Foo Fighters</h3>
+            <h4 class="informacion">Información</h4>
+            <div class="datos" style="display: none;">
+                <ul>
+                    <li><span>Grupo:</span> Foo Fighters</li>
+                    <li><span>Género:</span> Punk rock / Rock alternativo</li>
+                    <li><span>Año fundación:</span> 1994</li>
+                    <li><span>País:</span> Estados Unidos</li>
+                </ul>
+            </div>
+            <div class="add_biblioteca">
+                <form method="POST" action="#biblioteca.php">
+                    <input type="hidden" name="producto" value="Green Day">
+                    <button type="submit">Añadir a la biblioteca</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grupo 8 -->
+<div class="music_group">
+    <img src="/imagenes/imagenes_musica/greenday.jpeg" alt="Green Day" title="Green Day">
+    <div class="info_group">
+        <h3>Green Day</h3>
+        <h4 class="informacion">Información</h4>
+        <div class="datos" style="display: none;">
+            <ul>
+                <li><span>Grupo:</span> Green Day</li>
+                <li><span>Género:</span> Punk rock</li>
+                <li><span>Año fundación:</span> 1987</li>
+                <li><span>País:</span> Estados Unidos</li>
+            </ul>
+        </div>
+        <div class="add_biblioteca">
+            <form method="POST" action="#biblioteca.php">
+                <input type="hidden" name="producto" value="Green Day">
+                <button type="submit">Añadir a la biblioteca</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Grupo 9 -->
+<div class="music_group">
+    <img src="/imagenes/imagenes_musica/1975.jpeg" alt="The 1975" title="The 1975">
+    <div class="info_group">
+        <h3>The 1975</h3>
+        <h4 class="informacion">Información</h4>
+        <div class="datos" style="display: none;">
+            <ul>
+                <li><span>Grupo:</span> The 1975</li>
+                <li><span>Género:</span> Pop rock / Indie rock</li>
+                <li><span>Año fundación:</span> 2002</li>
+                <li><span>País:</span> Reino Unido</li>
+            </ul>
+        </div>
+        <div class="add_biblioteca">
+            <form method="POST" action="#biblioteca.php">
+                <input type="hidden" name="producto" value="The 1975">
+                <button type="submit">Añadir a la biblioteca</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script>
+document.querySelectorAll('.informacion').forEach(button => {
+    button.addEventListener('click', () => {
+        const datos = button.nextElementSibling;
+        if (datos.style.display === 'none') {
+            datos.style.display = 'block';
+        } else {
+            datos.style.display = 'none';
+        }
+    });
+});
+</script>
+<script>
+    const listaGrupos = document.querySelector(".container_music");
+
+    listaGrupos.addEventListener("click", function(e) {
+        if (e.target.tagName === "BUTTON") {
+            console.log("Estas agregando este grupo a la biblioteca");
+        }
+    });
+</script>
+
+</body>
+</html>
