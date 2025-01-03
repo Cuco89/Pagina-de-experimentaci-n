@@ -34,7 +34,7 @@ if (!isset($_SESSION['usuario'])) {
         
         <div class="resumen">
             <h1>¡Bienvenidos a GameZone!</h1>
-            <p>En <strong>GameZone</strong>, somos apasionados de los videojuegos y queremos compartir esa pasión contigo. Somos un equipo de entusiastas que vive y respira el mundo gamer, siempre en busca de las mejores experiencias para nuestros clientes. Ya sea que busques los últimos lanzamientos, clásicos inolvidables, o accesorios para mejorar tu experiencia de juego, aquí encontrarás todo lo que necesitas.</p>
+            <p>En <strong>GameZone</strong>, somos apasionad@s de los videojuegos y queremos compartir esa pasión contigo. Somos un equipo de entusiastas que vive y respira el mundo gamer, siempre en busca de las mejores experiencias para nuestros clientes. Ya sea que busques los últimos lanzamientos, clásicos inolvidables, o accesorios para mejorar tu experiencia de juego, aquí encontrarás todo lo que necesitas.</p>
             <p>Nuestra misión es más que solo vender videojuegos: queremos construir una comunidad donde jugadores de todas las edades y niveles puedan encontrar su lugar. En <strong>GameZone</strong>, creemos que los videojuegos son mucho más que entretenimiento: son historias, desafíos, conexiones y, sobre todo, momentos que se quedan contigo para siempre.</p>
             <p>Explora nuestra tienda, descubre nuevas aventuras y, si tienes alguna duda o necesitas ayuda, ¡no dudes en contactarnos! Estamos aquí para hacer que tu experiencia gamer sea épica.</p>
             <p>Gracias por visitarnos, y recuerda: ¡el próximo nivel siempre está más cerca de lo que piensas!</p>
